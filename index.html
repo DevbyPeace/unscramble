@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unscramble</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agu+Display&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Marcellus&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="agu-display">UNSCRAMBLE: THE GAME ♻️</h1>
+    <div class="header marcellus-regular">
+      <div class="rules">
+        <li>A scrambled word is displayed.</li>
+        <li>You are allowed 3 guesses per word.</li>
+        <li>Words increase in difficulty as the game progresses.</li>
+        <li>Correct guesses earn you a point.</li>
+      </div>
+
+      <div class="scores">
+        <span> Your Score :</span>
+        <span class="scorePl"> 0 </span>
+      </div>
+    </div>
+
+    <div class="game">
+      <div class="scram marcellus-regular">
+        <span> Your Word IS... </span>
+        <span class="random-word"></span>
+      </div>
+
+      <div class="load .poppins-regular">
+        <input
+          type="text"
+          name="Your guess here"
+          autocomplete="off"
+          id="guess"
+        />
+        <div class="btn">
+          <button type="button" class="butn">Guess</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="result madimi-one-regular hidden">CORRECT!</div>
+
+    <button type="button" class="next">Next</button>
+    <script src="script.js"></script>
+  </body>
+</html>

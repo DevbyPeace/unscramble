@@ -1,0 +1,320 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.agu-display {
+  font-family: "Agu Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "MORF" 0;
+  font-size: 40px;
+}
+.marcellus-regular {
+  font-family: "Marcellus", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.madimi-one-regular {
+  font-family: "Madimi One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background: rgb(27, 103, 9);
+  background: linear-gradient(
+    159deg,
+    rgba(27, 103, 9, 1) 0%,
+    rgba(9, 121, 65, 1) 35%,
+    rgba(67, 70, 153, 1) 100%
+  );
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(240, 255, 255, 0.322);
+}
+
+.header {
+  display: flex;
+  padding: 1rem;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  margin-right: 3rem;
+  justify-content: space-between;
+}
+.header .rules {
+  font-size: 23px;
+}
+
+.header .scores {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.game .scram {
+  font-size: 4rem;
+  padding: 1rem;
+}
+
+.game .load input {
+  height: 4rem;
+  width: 30rem;
+  border-radius: 20px;
+  border: 0cap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgba(59, 102, 49, 0.082);
+  border: 1px solid black;
+  color: white;
+  
+}
+
+.game .load button {
+  height: 2rem;
+  width: 7rem;
+  border-radius: 40px;
+  border: 0;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.4rem;
+  text-align: center;
+  font-weight: 600;
+}
+.game .load button:hover {
+  /* background-color: rgba(255, 255, 255, 0.651); */
+  border: 1px solid black;
+  font-size: 1rem;
+  color: white;
+  background-color: black;
+}
+.load {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.hidden{
+  display: none;
+}
+
+
+.result{
+    text-align: center;
+    font-size: 50px;
+    color: rgba(121, 190, 18, 0.767);
+    margin-top: 2rem;
+}
+
+.next{
+    height: 2rem;
+    width: 7rem;
+    border-radius: 40px;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.4rem;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+
+.next:hover{
+    border: 1px solid black;
+    font-size: 1rem;
+    color: black;
+    background-color: white;
+}
+
+
+
+
+.next{
+margin-left: 90vw;
+}
+
+
+/* 
+@media screen and  (max-width: 768px){
+.header{
+    display: flex;
+    justify-content: end;
+}
+.rules{
+    background: white;
+    width: auto;
+    margin-right: 4rem;
+    font-size: 10px;
+    margin-left: 1px;
+    padding : 0
+}
+
+.scores{
+    font-size: 10px;
+}
+}
+
+
+@media screen and  (max-width: 450px){
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 50vw;
+}
+
+h1{
+    height: auto;
+    padding: 0%;
+    font-size: xx-small;
+}
+header{
+    display: flex;
+}
+.rules{
+    font-size: xx-small;
+    padding: 0;
+    margin-left: 0%;
+    justify-content: left;
+    flex: ;
+}
+.game{
+    font-size: 5px;
+margin-top: 0;}
+} */
+
+
+
+/* Mobile-specific styles (max-width 768px) */
+@media screen and (max-width: 768px) {
+    .header {
+      display: flex;
+      justify-content: flex-end;
+      margin: 0 1rem;
+    }
+  
+    .rules {
+      font-size: 16px;
+      margin-right: 2rem;
+      padding: 0;
+      background: rgba(255, 255, 255, 0.6);
+    }
+  
+    .scores {
+      font-size: 18px;
+      font-weight: 600;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+      padding: 0.5rem;
+    }
+  
+    .game .scram {
+      font-size: 2.5rem;
+      padding: 1rem;
+    }
+  
+    .game .load input {
+      width: 90%;
+      height: 3.5rem;
+      font-size: 1.5rem;
+      margin: 0.5rem 0;
+    }
+  
+    .game .load button {
+      height: 2rem;
+      width: 6rem;
+      font-size: 1rem;
+    }
+  
+    .next {
+      margin-left: 75vw;
+    }
+  }
+  
+  /* Mobile-specific styles (max-width 450px) */
+  @media screen and (max-width: 450px) {
+    body {
+      width:100%;
+      height: auto;
+      font-size: 14px;
+      padding: 0;
+      margin: 0;
+      background-size: contain;
+    }
+  
+    h1 {
+      font-size: 1rem;
+      padding: 0.5rem;
+    }
+  
+    .header {
+      display: block;
+      padding: 1rem;
+      text-align: center;
+    }
+  
+    .rules {
+      font-size: 12px;
+      margin: 0;
+    }
+  
+    .scores {
+      font-size: 14px;
+    }
+  
+    .game .scram {
+      font-size: 2rem;
+      padding: 1rem;
+    }
+  
+    .game .load input {
+      width: 80%;
+      height: 3rem;
+      font-size: 1.3rem;
+      margin: 0.5rem 0;
+    }
+  
+    .game .load button {
+      height: 2rem;
+      width: 5rem;
+      font-size: 1rem;
+    }
+  
+    .result {
+      font-size: 30px;
+    }
+  
+    .next {
+      width: 6rem;
+      font-size: 1rem;
+      margin-left: 70vw;
+    }
+  }
