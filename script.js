@@ -65,7 +65,7 @@ let scores = 0;
 
 checker.addEventListener("click", function () {
   if (word === "teildgh") {
-    if (yourGuess.value === "delight") {
+    if (yourGuess.value.toLowerCase() === "delight") {
       console.log("good");
       reschecker.classList.remove("hidden");
       document.querySelector(".scorePl").textContent = scores++;
