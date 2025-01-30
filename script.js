@@ -23,7 +23,7 @@ let words = [
   "teildgh",
   "sohtipal",
   "eortcian",
-  "etalorrt",
+  "etaloret",
   "txieicng",
   "jurneeyod",
   "hboinreg",
@@ -72,133 +72,133 @@ checker.addEventListener("click", function () {
     }
   }
   if (word === "sohtipal") {
-    if (yourGuess.value === "hospital") {
+    if (yourGuess.value.toLowerCase() === "hospital") {
       console.log("good");
       reschecker.classList.remove("hidden");
       document.querySelector(".scorePl").textContent = scores++;
     }
   }
   if (word === "eortcian") {
-    if (yourGuess.value === "creation") {
+    if (yourGuess.value.toLowerCase() === "creation") {
       console.log("good");
       reschecker.classList.remove("hidden");
       document.querySelector(".scorePl").textContent = scores++;
     }
   } // bruhhh I'm dead 😭
   if (word === "etaloret") {
-    if (yourGuess.value === "tolerate") {
+    if (yourGuess.value.toLowerCase() === "tolerate") {
       console.log("good");
       reschecker.classList.remove("hidden");
       document.querySelector(".scorePl").textContent = scores++;
     }
   }
   if (word === "txieicng") {
-    if (yourGuess.value === "exciting") {
+    if (yourGuess.value.toLowerCase() === "exciting") {
       console.log("good");
       reschecker.classList.remove("hidden");
       document.querySelector(".scorePl").textContent = scores++;
     }
   }
   if (word === "jrneeuyod") {
-    if (yourGuess.value === "journeyed") {
+    if (yourGuess.value.toLowerCase() === "journeyed") {
       console.log("good");
       reschecker.classList.remove("hidden");
       document.querySelector(".scorePl").textContent = scores++;
     }
   }
   if (word === "hboinreg") {
-    if (yourGuess.value === "neighbor") {
+    if (yourGuess.value.toLowerCase() === "neighbor") {
       console.log("good");
       reschecker.classList.remove("hidden");
       document.querySelector(".scorePl").textContent = scores++;
     }
   }
   if (word === "nlsotiou") {
-    if (yourGuess.value === "solution") {
+    if (yourGuess.value.toLowerCase() === "solution") {
       console.log("good");
       reschecker.classList.remove("hidden");
       document.querySelector(".scorePl").textContent = scores++;
     }
   }
   if (word === "eplctosm") {
-    if (yourGuess.value === "complets") {
+    if (yourGuess.value.toLowerCase() === "complets") {
       console.log("good");
       reschecker.classList.remove("hidden");
       document.querySelector(".scorePl").textContent = scores++;
     }
   }
   if (word === "evltease") {
-    if (yourGuess.value === "elevates") {
+    if (yourGuess.value.toLowerCase() === "elevates") {
       console.log("good");
       reschecker.classList.remove("hidden");
       document.querySelector(".scorePl").textContent = scores++;
     }
   }
   if (word === "evitlafs") {
-    if (yourGuess.value === "festival") {
+    if (yourGuess.value.toLowerCase() === "festival") {
       console.log("good");
       reschecker.classList.remove("hidden");
       document.querySelector(".scorePl").textContent = scores++;
     }
   }
   if (word === "tictnonupua") {
-    if (yourGuess.value === "punctuation") {
+    if (yourGuess.value.toLowerCase() === "punctuation") {
       console.log("good");
       reschecker.classList.remove("hidden");
       document.querySelector(".scorePl").textContent = scores++;
     }
   }
   if (word === "aselbabl") {
-    if (yourGuess.value === "baseball") {
+    if (yourGuess.value.toLowerCase() === "baseball") {
       console.log("good");
       reschecker.classList.remove("hidden");
       document.querySelector(".scorePl").textContent = scores++;
     }
   }
   if (word === "oncterec") {
-    if (yourGuess.value === "concrete") {
+    if (yourGuess.value.toLowerCase() === "concrete") {
       console.log("good");
       reschecker.classList.remove("hidden");
       document.querySelector(".scorePl").textContent = scores++;
     }
   }
   if (word === "ycerelc") {
-    if (yourGuess.value === "recycle") {
+    if (yourGuess.value.toLowerCase() === "recycle") {
       console.log("good");
       reschecker.classList.remove("hidden");
       document.querySelector(".scorePl").textContent = scores++;
     }
   }
   if (word === "ytgteasr") {
-    if (yourGuess.value === "strategy") {
+    if (yourGuess.value.toLowerCase() === "strategy") {
       console.log("good");
       reschecker.classList.remove("hidden");
       document.querySelector(".scorePl").textContent = scores++;
     }
   }
   if (word === "ybtreil") {
-    if (yourGuess.value === "liberty") {
+    if (yourGuess.value.toLowerCase() === "liberty") {
       console.log("good");
       reschecker.classList.remove("hidden");
       document.querySelector(".scorePl").textContent = scores++;
     }
   }
   if (word === "tednureav") {
-    if (yourGuess.value === "adventure") {
+    if (yourGuess.value.toLowerCase() === "adventure") {
       console.log("good");
       reschecker.classList.remove("hidden");
       document.querySelector(".scorePl").textContent = scores++;
     }
   }
   if (word === "eantpnos") {
-    if (yourGuess.value === "spontane") {
+    if (yourGuess.value.toLowerCase() === "spontane") {
       console.log("good");
       reschecker.classList.remove("hidden");
       document.querySelector(".scorePl").textContent = scores++;
     }
   }
   if (word === "tievsopi") {
-    if (yourGuess.value === "positive") {
+    if (yourGuess.value.toLowerCase() === "positive") {
       console.log("good");
       reschecker.classList.remove("hidden");
       document.querySelector(".scorePl").textContent = scores++;
