@@ -42,6 +42,7 @@ let words = [
   "tievsopi",
 ];
 
+
 let index = Math.floor(Math.random() * words.length);
 let word = words[index];
 
