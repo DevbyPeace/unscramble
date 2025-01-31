@@ -60,8 +60,6 @@ let scores = 0;
 // let word = words[index]
 
 // // console.log(word);
-
-// document.querySelector('.random-word').textContent= `"${word}"`;
 // });
 
 nextBtn.addEventListener("click", function () {
