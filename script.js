@@ -74,14 +74,14 @@ nextBtn.addEventListener("click", function () {
 
 checker.addEventListener("click", function () {
   if (word === "teildgh") {
-    if (yourGuess.value.toLowerCase() === "delight") {
+    if (yourGuess.value.toLowerCase().trim() === "delight") {
       console.log("good");
       reschecker.classList.remove("hidden");
       nextBtn.classList.remove("hidden");
       reschecker.textContent = "Correct";
       reschecker.style.color = "rgba(121, 190, 18, 0.767)";
       document.querySelector(".scorePl").textContent = scores++;
-    } else if (yourGuess.value.toLowerCase() !== "delight") {
+    } else if (yourGuess.value.toLowerCase().trim() !== "delight") {
       console.log("wrong");
       reschecker.classList.remove("hidden");
       reschecker.textContent = "Wrong, try again";
@@ -89,14 +89,14 @@ checker.addEventListener("click", function () {
     }
   }
   if (word === "sohtipal") {
-    if (yourGuess.value.toLowerCase() === "hospital") {
+    if (yourGuess.value.toLowerCase().trim() === "hospital") {
       console.log("good");
       reschecker.classList.remove("hidden");
       nextBtn.classList.remove("hidden");
       reschecker.textContent = "Correct";
       reschecker.style.color = "rgba(121, 190, 18, 0.767)";
       document.querySelector(".scorePl").textContent = scores++;
-    } else if (yourGuess.value.toLowerCase() !== "hospital") {
+    } else if (yourGuess.value.toLowerCase().trim() !== "hospital") {
       console.log("wrong");
       reschecker.classList.remove("hidden");
       reschecker.textContent = "Wrong, try again";
@@ -104,14 +104,14 @@ checker.addEventListener("click", function () {
     }
   }
   if (word === "eortcian") {
-    if (yourGuess.value.toLowerCase() === "creation") {
+    if (yourGuess.value.toLowerCase().trim() === "creation") {
       console.log("good");
       reschecker.classList.remove("hidden");
       nextBtn.classList.remove("hidden");
       reschecker.textContent = "Correct";
       reschecker.style.color = "rgba(121, 190, 18, 0.767)";
       document.querySelector(".scorePl").textContent = scores++;
-    } else if (yourGuess.value.toLowerCase() !== "creation") {
+    } else if (yourGuess.value.toLowerCase().trim() !== "creation") {
       console.log("wrong");
       reschecker.classList.remove("hidden");
       reschecker.textContent = "Wrong, try again";
@@ -119,14 +119,14 @@ checker.addEventListener("click", function () {
     }
   } // bruhhh I'm dead 😭
   if (word === "etaloret") {
-    if (yourGuess.value.toLowerCase() === "tolerate") {
+    if (yourGuess.value.toLowerCase().trim() === "tolerate") {
       console.log("good");
       reschecker.classList.remove("hidden");
       nextBtn.classList.remove("hidden");
       reschecker.textContent = "Correct";
       reschecker.style.color = "rgba(121, 190, 18, 0.767)";
       document.querySelector(".scorePl").textContent = scores++;
-    } else if (yourGuess.value.toLowerCase() !== "tolerate") {
+    } else if (yourGuess.value.toLowerCase().trim() !== "tolerate") {
       console.log("wrong");
       reschecker.classList.remove("hidden");
       reschecker.textContent = "Wrong, try again";
@@ -134,14 +134,14 @@ checker.addEventListener("click", function () {
     }
   }
   if (word === "txieicng") {
-    if (yourGuess.value.toLowerCase() === "exciting") {
+    if (yourGuess.value.toLowerCase().trim() === "exciting") {
       console.log("good");
       reschecker.classList.remove("hidden");
       nextBtn.classList.remove("hidden");
       reschecker.textContent = "Correct";
       reschecker.style.color = "rgba(121, 190, 18, 0.767)";
       document.querySelector(".scorePl").textContent = scores++;
-    } else if (yourGuess.value.toLowerCase() !== "exciting") {
+    } else if (yourGuess.value.toLowerCase().trim() !== "exciting") {
       console.log("wrong");
       reschecker.classList.remove("hidden");
       reschecker.textContent = "Wrong, try again";
@@ -149,14 +149,14 @@ checker.addEventListener("click", function () {
     }
   }
   if (word === "jurneeyod") {
-    if (yourGuess.value.toLowerCase() === "journeyed") {
+    if (yourGuess.value.toLowerCase().trim() === "journeyed") {
       console.log("good");
       reschecker.classList.remove("hidden");
       nextBtn.classList.remove("hidden");
       reschecker.textContent = "Correct";
       reschecker.style.color = "rgba(121, 190, 18, 0.767)";
       document.querySelector(".scorePl").textContent = scores++;
-    } else if (yourGuess.value.toLowerCase() !== "journeyed") {
+    } else if (yourGuess.value.toLowerCase().trim() !== "journeyed") {
       console.log("wrong");
       reschecker.classList.remove("hidden");
       reschecker.textContent = "Wrong, try again";
@@ -164,14 +164,14 @@ checker.addEventListener("click", function () {
     }
   }
   if (word === "hboinreg") {
-    if (yourGuess.value.toLowerCase() === "neighbor") {
+    if (yourGuess.value.toLowerCase().trim() === "neighbor") {
       console.log("good");
       reschecker.classList.remove("hidden");
       nextBtn.classList.remove("hidden");
       reschecker.textContent = "Correct";
       reschecker.style.color = "rgba(121, 190, 18, 0.767)";
       document.querySelector(".scorePl").textContent = scores++;
-    } else if (yourGuess.value.toLowerCase() !== "neighbor") {
+    } else if (yourGuess.value.toLowerCase().trim() !== "neighbor") {
       console.log("wrong");
       reschecker.classList.remove("hidden");
       reschecker.textContent = "Wrong, try again";
@@ -179,14 +179,14 @@ checker.addEventListener("click", function () {
     }
   }
   if (word === "nlsotiou") {
-    if (yourGuess.value.toLowerCase() === "solution") {
+    if (yourGuess.value.toLowerCase().trim() === "solution") {
       console.log("good");
       reschecker.classList.remove("hidden");
       nextBtn.classList.remove("hidden");
       reschecker.textContent = "Correct";
       reschecker.style.color = "rgba(121, 190, 18, 0.767)";
       document.querySelector(".scorePl").textContent = scores++;
-    } else if (yourGuess.value.toLowerCase() !== "solution") {
+    } else if (yourGuess.value.toLowerCase().trim() !== "solution") {
       console.log("wrong");
       reschecker.classList.remove("hidden");
       reschecker.textContent = "Wrong, try again";
@@ -194,14 +194,14 @@ checker.addEventListener("click", function () {
     }
   }
   if (word === "eplctosme") {
-    if (yourGuess.value.toLowerCase() === "completes") {
+    if (yourGuess.value.toLowerCase().trim() === "completes") {
       console.log("good");
       reschecker.classList.remove("hidden");
       nextBtn.classList.remove("hidden");
       reschecker.textContent = "Correct";
       reschecker.style.color = "rgba(121, 190, 18, 0.767)";
       document.querySelector(".scorePl").textContent = scores++;
-    } else if (yourGuess.value.toLowerCase() !== "completes") {
+    } else if (yourGuess.value.toLowerCase().trim() !== "completes") {
       console.log("wrong");
       reschecker.classList.remove("hidden");
       reschecker.textContent = "Wrong, try again";
@@ -209,14 +209,14 @@ checker.addEventListener("click", function () {
     }
   }
   if (word === "evltease") {
-    if (yourGuess.value.toLowerCase() === "elevates") {
+    if (yourGuess.value.toLowerCase().trim() === "elevates") {
       console.log("good");
       reschecker.classList.remove("hidden");
       nextBtn.classList.remove("hidden");
       reschecker.textContent = "Correct";
       reschecker.style.color = "rgba(121, 190, 18, 0.767)";
       document.querySelector(".scorePl").textContent = scores++;
-    } else if (yourGuess.value.toLowerCase() !== "elevates") {
+    } else if (yourGuess.value.toLowerCase().trim() !== "elevates") {
       console.log("wrong");
       reschecker.classList.remove("hidden");
       reschecker.textContent = "Wrong, try again";
@@ -224,14 +224,14 @@ checker.addEventListener("click", function () {
     }
   }
   if (word === "evitlafs") {
-    if (yourGuess.value.toLowerCase() === "festival") {
+    if (yourGuess.value.toLowerCase().trim() === "festival") {
       console.log("good");
       reschecker.classList.remove("hidden");
       nextBtn.classList.remove("hidden");
       reschecker.textContent = "Correct";
       reschecker.style.color = "rgba(121, 190, 18, 0.767)";
       document.querySelector(".scorePl").textContent = scores++;
-    } else if (yourGuess.value.toLowerCase() !== "festival") {
+    } else if (yourGuess.value.toLowerCase().trim() !== "festival") {
       console.log("wrong");
       reschecker.classList.remove("hidden");
       reschecker.textContent = "Wrong, try again";
@@ -239,14 +239,14 @@ checker.addEventListener("click", function () {
     }
   }
   if (word === "tictnonupua") {
-    if (yourGuess.value.toLowerCase() === "punctuation") {
+    if (yourGuess.value.toLowerCase().trim() === "punctuation") {
       console.log("good");
       reschecker.classList.remove("hidden");
       nextBtn.classList.remove("hidden");
       reschecker.textContent = "Correct";
       reschecker.style.color = "rgba(121, 190, 18, 0.767)";
       document.querySelector(".scorePl").textContent = scores++;
-    } else if (yourGuess.value.toLowerCase() !== "punctuation") {
+    } else if (yourGuess.value.toLowerCase().trim() !== "punctuation") {
       console.log("wrong");
       reschecker.classList.remove("hidden");
       reschecker.textContent = "Wrong, try again";
@@ -254,14 +254,14 @@ checker.addEventListener("click", function () {
     }
   }
   if (word === "aselbabl") {
-    if (yourGuess.value.toLowerCase() === "baseball") {
+    if (yourGuess.value.toLowerCase().trim() === "baseball") {
       console.log("good");
       reschecker.classList.remove("hidden");
       nextBtn.classList.remove("hidden");
       reschecker.textContent = "Correct";
       reschecker.style.color = "rgba(121, 190, 18, 0.767)";
       document.querySelector(".scorePl").textContent = scores++;
-    } else if (yourGuess.value.toLowerCase() !== "baseball") {
+    } else if (yourGuess.value.toLowerCase().trim() !== "baseball") {
       console.log("wrong");
       reschecker.classList.remove("hidden");
       reschecker.textContent = "Wrong, try again";
@@ -269,14 +269,14 @@ checker.addEventListener("click", function () {
     }
   }
   if (word === "oncterec") {
-    if (yourGuess.value.toLowerCase() === "concrete") {
+    if (yourGuess.value.toLowerCase().trim() === "concrete") {
       console.log("good");
       reschecker.classList.remove("hidden");
       nextBtn.classList.remove("hidden");
       reschecker.textContent = "Correct";
       reschecker.style.color = "rgba(121, 190, 18, 0.767)";
       document.querySelector(".scorePl").textContent = scores++;
-    } else if (yourGuess.value.toLowerCase() !== "concrete") {
+    } else if (yourGuess.value.toLowerCase().trim() !== "concrete") {
       console.log("wrong");
       reschecker.classList.remove("hidden");
       reschecker.textContent = "Wrong, try again";
@@ -284,14 +284,14 @@ checker.addEventListener("click", function () {
     }
   }
   if (word === "ycerelc") {
-    if (yourGuess.value.toLowerCase() === "recycle") {
+    if (yourGuess.value.toLowerCase().trim() === "recycle") {
       console.log("good");
       reschecker.classList.remove("hidden");
       nextBtn.classList.remove("hidden");
       reschecker.textContent = "Correct";
       reschecker.style.color = "rgba(121, 190, 18, 0.767)";
       document.querySelector(".scorePl").textContent = scores++;
-    } else if (yourGuess.value.toLowerCase() !== "recycle") {
+    } else if (yourGuess.value.toLowerCase().trim() !== "recycle") {
       console.log("wrong");
       reschecker.classList.remove("hidden");
       reschecker.textContent = "Wrong, try again";
@@ -299,14 +299,14 @@ checker.addEventListener("click", function () {
     }
   }
   if (word === "ytgteasr") {
-    if (yourGuess.value.toLowerCase() === "strategy") {
+    if (yourGuess.value.toLowerCase().trim() === "strategy") {
       console.log("good");
       reschecker.classList.remove("hidden");
       nextBtn.classList.remove("hidden");
       reschecker.textContent = "Correct";
       reschecker.style.color = "rgba(121, 190, 18, 0.767)";
       document.querySelector(".scorePl").textContent = scores++;
-    } else if (yourGuess.value.toLowerCase() !== "strategy") {
+    } else if (yourGuess.value.toLowerCase().trim() !== "strategy") {
       console.log("wrong");
       reschecker.classList.remove("hidden");
       reschecker.textContent = "Wrong, try again";
@@ -314,14 +314,14 @@ checker.addEventListener("click", function () {
     }
   }
   if (word === "ybtreil") {
-    if (yourGuess.value.toLowerCase() === "liberty") {
+    if (yourGuess.value.toLowerCase().trim() === "liberty") {
       console.log("good");
       reschecker.classList.remove("hidden");
       nextBtn.classList.remove("hidden");
       reschecker.textContent = "Correct";
       reschecker.style.color = "rgba(121, 190, 18, 0.767)";
       document.querySelector(".scorePl").textContent = scores++;
-    } else if (yourGuess.value.toLowerCase() !== "liberty") {
+    } else if (yourGuess.value.toLowerCase().trim() !== "liberty") {
       console.log("wrong");
       reschecker.classList.remove("hidden");
       reschecker.textContent = "Wrong, try again";
@@ -329,14 +329,14 @@ checker.addEventListener("click", function () {
     }
   }
   if (word === "tednureav") {
-    if (yourGuess.value.toLowerCase() === "adventure") {
+    if (yourGuess.value.toLowerCase().trim() === "adventure") {
       console.log("good");
       reschecker.classList.remove("hidden");
       nextBtn.classList.remove("hidden");
       reschecker.textContent = "Correct";
       reschecker.style.color = "rgba(121, 190, 18, 0.767)";
       document.querySelector(".scorePl").textContent = scores++;
-    } else if (yourGuess.value.toLowerCase() !== "adventure") {
+    } else if (yourGuess.value.toLowerCase().trim() !== "adventure") {
       console.log("wrong");
       reschecker.classList.remove("hidden");
       reschecker.textContent = "Wrong, try again";
@@ -344,14 +344,14 @@ checker.addEventListener("click", function () {
     }
   }
   if (word === "eantpnos") {
-    if (yourGuess.value.toLowerCase() === "spontane") {
+    if (yourGuess.value.toLowerCase().trim() === "spontane") {
       console.log("good");
       reschecker.classList.remove("hidden");
       nextBtn.classList.remove("hidden");
       reschecker.textContent = "Correct";
       reschecker.style.color = "rgba(121, 190, 18, 0.767)";
       document.querySelector(".scorePl").textContent = scores++;
-    } else if (yourGuess.value.toLowerCase() !== "spontane") {
+    } else if (yourGuess.value.toLowerCase().trim() !== "spontane") {
       console.log("wrong");
       reschecker.classList.remove("hidden");
       reschecker.textContent = "Wrong, try again";
@@ -359,14 +359,14 @@ checker.addEventListener("click", function () {
     }
   }
   if (word === "tievsopi") {
-    if (yourGuess.value.toLowerCase() === "positive") {
+    if (yourGuess.value.toLowerCase().trim() === "positive") {
       console.log("good");
       reschecker.classList.remove("hidden");
       nextBtn.classList.remove("hidden");
       reschecker.textContent = "Correct";
       reschecker.style.color = "rgba(121, 190, 18, 0.767)";
       document.querySelector(".scorePl").textContent = scores++;
-    } else if (yourGuess.value.toLowerCase() !== "positive") {
+    } else if (yourGuess.value.toLowerCase().trim() !== "positive") {
       console.log("wrong");
       reschecker.classList.remove("hidden");
       reschecker.textContent = "Wrong, try again";
