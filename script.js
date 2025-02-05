@@ -42,7 +42,6 @@ let words = [
   "tievsopi",
 ];
 
-
 let index = Math.floor(Math.random() * words.length);
 let word = words[index];
 
@@ -63,13 +62,23 @@ let scores = 0;
 // });
 
 nextBtn.addEventListener("click", function () {
-  index = Math.floor(Math.random() * words.length);
-  word = words[index];
-  document.querySelector(".random-word").textContent = `"${word}"`;
-  reschecker.classList.add("hidden");
-  nextBtn.classList.add("hidden");
-  reschecker.textContent = "";
-  yourGuess.value = "";
+  words.splice(index, 1);
+  if (words.length === 0) {
+    document.getElementById("span").textContent = "You Win!!🏆🏆🏆";
+    document.querySelector(".random-word").textContent = "";
+    nextBtn.classList.add("hidden");
+    yourGuess.classList.add('hidden');
+    checker.classList.add('hidden');
+    reschecker.textContent = "";
+  } else {
+    index = Math.floor(Math.random() * words.length);
+    word = words[index];
+    document.querySelector(".random-word").textContent = `"${word}"`;
+    reschecker.classList.add("hidden");
+    nextBtn.classList.add("hidden");
+    reschecker.textContent = "";
+    yourGuess.value = "";
+  }
 });
 
 checker.addEventListener("click", function () {
